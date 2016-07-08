@@ -1,0 +1,84 @@
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.grid-conatiner {
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* line 6, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 12, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+[class*='col-'] {
+  float: left;
+  min-height: 30px;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-1 {
+  width: 8.33333%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-2 {
+  width: 16.66667%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-4 {
+  width: 33.33333%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-5 {
+  width: 41.66667%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-7 {
+  width: 58.33333%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-8 {
+  width: 66.66667%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-10 {
+  width: 83.33333%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-11 {
+  width: 91.66667%;
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 4, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/style.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}

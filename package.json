@@ -1,0 +1,25 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "first memo game",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "memo-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiwanska/memo.git"
+  },
+  "keywords": [
+    "memo",
+    "game",
+    "kasia",
+    "iwanska"
+  ],
+  "author": "kasia iwanska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiwanska/memo/issues"
+  },
+  "homepage": "https://github.com/kiwanska/memo#readme"
+}

@@ -22,5 +22,14 @@ gulp.task('sass', function(){
 
 
 gulp.task('watch', function(){
-	gulp.watch('scss/*.scss', ['sass']);
+	gulp.watch('scss/**/*.scss', ['sass']);
 });
+
+// gulp.task('build', function(){
+// 	return gulp.src('css/*.css')
+// 	.pipe(sass({errLogToConsole:true, 
+// 		outputStyle: 'expanded', //nested jest domyślny, expanded najbardziej przyjazny (czytelny), compact rezygnuje z enterów i spacji, compressed tworzy najmniejszy możliwy plik
+// 		sourceComments: 'map'}))
+// 	.pipe(gulp.dest('build/css'))
+// })
+

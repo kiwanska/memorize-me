@@ -1,0 +1,19 @@
+.grid-conatiner {
+	width: 100%;
+	max-width: 1400px;
+}
+
+.row:before, .row:after {
+	content: " "; 
+	display: table; 
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 30px;
+}
+
+@for $i from 1 through $columns {
+	.col-#{$i} {width: 100% / $columns * $i;}
+}
