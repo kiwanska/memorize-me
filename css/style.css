@@ -1,84 +1,510 @@
-/* line 1, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .grid-conatiner {
   width: 100%;
   max-width: 1400px;
 }
 
-/* line 6, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 6, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .row:before, .row:after {
   content: " ";
   display: table;
   clear: both;
 }
 
-/* line 12, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 12, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 [class*='col-'] {
   float: left;
   min-height: 30px;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-1 {
   width: 8.33333%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-2 {
   width: 16.66667%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-3 {
   width: 25%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-4 {
   width: 33.33333%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-5 {
   width: 41.66667%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-6 {
   width: 50%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-7 {
   width: 58.33333%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-8 {
   width: 66.66667%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-9 {
   width: 75%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-10 {
   width: 83.33333%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-11 {
   width: 91.66667%;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/partials/_grid.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_grid.scss */
 .col-12 {
   width: 100%;
 }
 
-/* line 4, /Users/sobylmine/Wszystko/CODEWORK/memo/scss/style.scss */
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board {
+  height: 85vh;
+  width: 90vw;
+  position: relative;
+  top: -2vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: hidden;
+}
+
+/* line 12, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block {
+  width: 16vh;
+  height: 16vh;
+  border: 1px solid #000000;
+  padding: 1vh;
+  margin: 1vh;
+  position: relative;
+}
+
+/* line 20, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block div.triangle {
+  width: 0;
+  height: 0;
+  border-left: 17vh solid transparent;
+  background-color: #ffffff;
+}
+
+/* line 26, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color1 {
+  border-bottom: 17vh solid #E6F99D;
+}
+
+/* line 29, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color2 {
+  border-bottom: 17vh solid #50CFC9;
+}
+
+/* line 32, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color3 {
+  border-bottom: 17vh solid #EA5455;
+}
+
+/* line 35, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color4 {
+  border-bottom: 17vh solid #F5D97E;
+}
+
+/* line 38, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color5 {
+  border-bottom: 17vh solid #DDDDDD;
+}
+
+/* line 41, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color6 {
+  border-bottom: 17vh solid #5A8DDC;
+}
+
+/* line 44, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color7 {
+  border-bottom: 17vh solid #F5F5F5;
+}
+
+/* line 47, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color8 {
+  border-bottom: 17vh solid #B9E937;
+}
+
+/* line 50, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color9 {
+  border-bottom: 17vh solid #FC5185;
+}
+
+/* line 53, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color10 {
+  border-bottom: 17vh solid #7FDA89;
+}
+
+/* line 56, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color11 {
+  border-bottom: 17vh solid #47A0B4;
+}
+
+/* line 59, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color12 {
+  border-bottom: 17vh solid #FF5733;
+}
+
+/* line 62, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color13 {
+  border-bottom: 17vh solid #FFD00C;
+}
+
+/* line 65, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color14 {
+  border-bottom: 17vh solid #BBE9DB;
+}
+
+/* line 68, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color15 {
+  border-bottom: 17vh solid #F03861;
+}
+
+/* line 71, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color16 {
+  border-bottom: 17vh solid #AECCC6;
+}
+
+/* line 80, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block h1 {
+  font-size: 3vh;
+  width: 16vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  position: absolute;
+  margin: 1.5vh;
+  top: 0;
+  left: 0;
+}
+
+/* line 92, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block p {
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  padding-left: 50%;
+  position: absolute;
+  margin: 1vh;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer {
+  color: #D7DBDD;
+  font-weight: 200;
+}
+
+/* line 5, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #874365;
+  background-color: #ffffff;
+  border: 1px solid #874365;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* line 15, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer button:hover {
+  background-color: #eddce5;
+  color: white;
+}
+
+/* line 20, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer button:active {
+  background-color: #cc97b2;
+}
+
+/* line 24, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer button:focus {
+  outline: none;
+}
+
+/* line 29, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
+footer p {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.flash {
+  animation: flash 2s ease infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes "flash" {
+  0% {
+    -webkit-transform: scale(0.9);
+  }
+  20% {
+    -webkit-transform: scale(0.5);
+  }
+  40% {
+    -webkit-transform: scale(0.9);
+  }
+  60% {
+    -webkit-transform: scale(0.7);
+  }
+  80% {
+    -webkit-transform: scale(0.9);
+  }
+  90% {
+    -webkit-transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+  }
+}
+
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.wobble {
+  animation: wobble 2s ease infinite;
+}
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* line 32, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.swing {
+  transform-origin: top center;
+  animation: swing 2s ease infinite;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 44, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.roll-in {
+  animation: roll-in 2s ease infinite;
+}
+
+@keyframes roll-in {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(1080deg);
+  }
+}
+
+/* line 52, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/* line 60, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.wave {
+  animation: wave 2s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  40% {
+    -webkit-transform: translateX(-20%) scale(0.8);
+  }
+  80% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+/* line 71, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.gelatine {
+  animation: gelatine 0.5s infinite;
+}
+
+@keyframes gelatine {
+  from, to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+/* line 82, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.hithere {
+  animation: hithere 1s ease infinite;
+}
+
+@keyframes hithere {
+  30% {
+    transform: scale(1.1);
+  }
+  40%, 60% {
+    transform: rotate(-20deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* line 93, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-35%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-17%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-13%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* line 106, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.shake {
+  animation: shake 2s ease infinite;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+/* line 115, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_animations.scss */
+.squize {
+  animation: squize 2s ease infinite;
+}
+
+@keyframes squize {
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.7, 1.5);
+  }
+}
+
+/* line 4, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/style.scss */
 html, body {
   margin: 0;
   padding: 0;
+}
+
+/* line 9, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/style.scss */
+body {
+  font-family: "SourceSansPro", sans-serif;
+  font-size: 1.4vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

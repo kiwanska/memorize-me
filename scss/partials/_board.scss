@@ -1,0 +1,107 @@
+#board {
+	height: 85vh;
+	width: 90vw;
+	position: relative;
+	top: -2vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	overflow: hidden;
+
+	.block {
+		width: 16vh;
+		height: 16vh;
+    	border: 1px solid $black;
+    	padding: 1vh;
+    	margin: 1vh;
+    	position: relative;
+    	
+    	div.triangle {
+			width: 0;
+			height: 0;
+			border-left: 17vh solid transparent;
+			background-color: #ffffff;	
+		}
+		.color1 {
+				border-bottom: 17vh solid #E6F99D;
+		}
+		.color2 {
+				border-bottom: 17vh solid #50CFC9;
+		}
+		.color3 {
+				border-bottom: 17vh solid #EA5455;
+		}
+		.color4 {
+				border-bottom: 17vh solid #F5D97E;
+		}
+		.color5 {
+				border-bottom: 17vh solid #DDDDDD;
+		}
+		.color6 {
+				border-bottom: 17vh solid #5A8DDC;
+		}
+		.color7 {
+				border-bottom: 17vh solid #F5F5F5;
+		}
+		.color8 {
+				border-bottom: 17vh solid #B9E937;
+		}
+		.color9 {
+				border-bottom: 17vh solid #FC5185;
+		}
+		.color10 {
+				border-bottom: 17vh solid #7FDA89;
+		}
+		.color11 {
+				border-bottom: 17vh solid #47A0B4;
+		}
+		.color12 {
+				border-bottom: 17vh solid #FF5733;
+		}
+		.color13 {
+				border-bottom: 17vh solid #FFD00C;
+		}
+		.color14 {
+				border-bottom: 17vh solid #BBE9DB;
+		}
+		.color15 {
+				border-bottom: 17vh solid #F03861;
+		}
+		.color16 {
+				border-bottom: 17vh solid #AECCC6;
+		}
+
+
+
+
+
+
+    	h1 {
+			font-size: 3vh;
+			width: 16vh;
+			height: auto;
+			margin:0;
+			padding:0;
+			width: 50%;
+			position: absolute;
+			margin: 1.5vh;
+			top:0;
+			left:0;
+		}
+		p {
+			margin:0;
+			padding:0;
+			width: 35%;
+			padding-left: 50%;
+			position: absolute;
+			margin: 1vh;
+			bottom:0;
+			right:0;
+			//color: #ffffff;
+		}	
+	}
+}
+
+
+
