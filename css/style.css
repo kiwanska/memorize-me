@@ -91,6 +91,11 @@
 }
 
 /* line 12, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .gone {
+  opacity: 0;
+}
+
+/* line 16, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block {
   width: 16vh;
   height: 16vh;
@@ -100,7 +105,7 @@
   position: relative;
 }
 
-/* line 20, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 26, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block div.triangle {
   width: 0;
   height: 0;
@@ -108,87 +113,87 @@
   background-color: #ffffff;
 }
 
-/* line 26, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 32, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color1 {
   border-bottom: 17vh solid #E6F99D;
 }
 
-/* line 29, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 35, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color2 {
   border-bottom: 17vh solid #50CFC9;
 }
 
-/* line 32, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 38, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color3 {
   border-bottom: 17vh solid #EA5455;
 }
 
-/* line 35, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 41, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color4 {
   border-bottom: 17vh solid #F5D97E;
 }
 
-/* line 38, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 44, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color5 {
   border-bottom: 17vh solid #DDDDDD;
 }
 
-/* line 41, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 47, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color6 {
   border-bottom: 17vh solid #5A8DDC;
 }
 
-/* line 44, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 50, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color7 {
   border-bottom: 17vh solid #F5F5F5;
 }
 
-/* line 47, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 53, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color8 {
   border-bottom: 17vh solid #B9E937;
 }
 
-/* line 50, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 56, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color9 {
   border-bottom: 17vh solid #FC5185;
 }
 
-/* line 53, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 59, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color10 {
   border-bottom: 17vh solid #7FDA89;
 }
 
-/* line 56, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 62, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color11 {
   border-bottom: 17vh solid #47A0B4;
 }
 
-/* line 59, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 65, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color12 {
   border-bottom: 17vh solid #FF5733;
 }
 
-/* line 62, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 68, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color13 {
   border-bottom: 17vh solid #FFD00C;
 }
 
-/* line 65, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 71, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color14 {
   border-bottom: 17vh solid #BBE9DB;
 }
 
-/* line 68, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 74, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color15 {
   border-bottom: 17vh solid #F03861;
 }
 
-/* line 71, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 77, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block .color16 {
   border-bottom: 17vh solid #AECCC6;
 }
 
-/* line 80, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 86, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block h1 {
   font-size: 3vh;
   width: 16vh;
@@ -202,7 +207,7 @@
   left: 0;
 }
 
-/* line 92, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 98, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block p {
   margin: 0;
   padding: 0;

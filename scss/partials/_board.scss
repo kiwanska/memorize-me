@@ -9,6 +9,10 @@
 	align-content: flex-start;
 	overflow: hidden;
 
+	.gone {
+			opacity: 0;
+	}
+
 	.block {
 		width: 16vh;
 		height: 16vh;
@@ -16,6 +20,8 @@
     	padding: 1vh;
     	margin: 1vh;
     	position: relative;
+
+
     	
     	div.triangle {
 			width: 0;
@@ -102,6 +108,8 @@
 		}	
 	}
 }
+
+
 
 
 
