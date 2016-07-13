@@ -1,6 +1,6 @@
 #board {
 	height: 85vh;
-	width: 90vw;
+	width: 164vh;
 	position: relative;
 	top: -2vh;
 	display: flex;
@@ -10,7 +10,7 @@
 	overflow: hidden;
 
 	.gone {
-			opacity: 0;
+		opacity: 0;
 	}
 
 	.block {
@@ -20,91 +20,103 @@
     	padding: 1vh;
     	margin: 1vh;
     	position: relative;
-
-
     	
     	div.triangle {
 			width: 0;
 			height: 0;
-			border-left: 17vh solid transparent;
 			background-color: #ffffff;	
+			border-bottom-style: solid;
+			@media all and (orientation: landscape) {
+				border-bottom-width: 17vh; 
+				border-left: 17vh solid transparent;
+			}
+			@media all and (orientation: portrait) {
+				border-bottom-width: 17vw; 
+				border-left: 17vw solid transparent;
+			}
 		}
 		.color1 {
-				border-bottom: 17vh solid #E6F99D;
+				border-bottom-color: #E6F99D;
 		}
 		.color2 {
-				border-bottom: 17vh solid #50CFC9;
+				border-bottom-color: #50CFC9;
 		}
 		.color3 {
-				border-bottom: 17vh solid #EA5455;
+				border-bottom-color: #EA5455;
 		}
 		.color4 {
-				border-bottom: 17vh solid #F5D97E;
+				border-bottom-color: #F5D97E;
 		}
 		.color5 {
-				border-bottom: 17vh solid #DDDDDD;
+				border-bottom-color: #DDDDDD;
 		}
 		.color6 {
-				border-bottom: 17vh solid #5A8DDC;
+				border-bottom-color: #5A8DDC;
 		}
 		.color7 {
-				border-bottom: 17vh solid #F5F5F5;
+				border-bottom-color: #F5F5F5;
 		}
 		.color8 {
-				border-bottom: 17vh solid #B9E937;
+				border-bottom-color: #B9E937;
 		}
 		.color9 {
-				border-bottom: 17vh solid #FC5185;
+				border-bottom-color: #FC5185;
 		}
 		.color10 {
-				border-bottom: 17vh solid #7FDA89;
+				border-bottom-color: #7FDA89;
 		}
 		.color11 {
-				border-bottom: 17vh solid #47A0B4;
+				border-bottom-color: #47A0B4;
 		}
 		.color12 {
-				border-bottom: 17vh solid #FF5733;
+				border-bottom-color: #FF5733;
 		}
 		.color13 {
-				border-bottom: 17vh solid #FFD00C;
+				border-bottom-color: #FFD00C;
 		}
 		.color14 {
-				border-bottom: 17vh solid #BBE9DB;
+				border-bottom-color: #BBE9DB;
 		}
 		.color15 {
-				border-bottom: 17vh solid #F03861;
+				border-bottom-color: #F03861;
 		}
 		.color16 {
-				border-bottom: 17vh solid #AECCC6;
+				border-bottom-color: #AECCC6;
 		}
 
-
-
-
-
-
     	h1 {
-			font-size: 3vh;
-			width: 16vh;
+			@media all and (orientation: landscape) {
+				font-size: 2em;
+			}
+			@media all and (orientation: portrait) {
+				font-size: 1.3em;
+			}
+			width: 100%;
 			height: auto;
 			margin:0;
 			padding:0;
 			width: 50%;
 			position: absolute;
-			margin: 1.5vh;
+			margin: 10%;
 			top:0;
 			left:0;
 		}
 		p {
+			@media all and (orientation: landscape) {
+				font-size: 1.1em;
+				width: 35%;
+			}
+			@media all and (orientation: portrait) {
+				font-size: 0.7em;
+				width: 45%;
+			}
 			margin:0;
 			padding:0;
-			width: 35%;
 			padding-left: 50%;
 			position: absolute;
 			margin: 1vh;
 			bottom:0;
 			right:0;
-			//color: #ffffff;
 		}	
 	}
 }

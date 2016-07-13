@@ -80,7 +80,7 @@
 /* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board {
   height: 85vh;
-  width: 90vw;
+  width: 164vh;
   position: relative;
   top: -2vh;
   display: flex;
@@ -105,118 +105,162 @@
   position: relative;
 }
 
-/* line 26, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 24, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block div.triangle {
   width: 0;
   height: 0;
-  border-left: 17vh solid transparent;
   background-color: #ffffff;
+  border-bottom-style: solid;
 }
 
-/* line 32, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color1 {
-  border-bottom: 17vh solid #E6F99D;
+@media all and (orientation: landscape) {
+  /* line 24, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block div.triangle {
+    border-bottom-width: 17vh;
+    border-left: 17vh solid transparent;
+  }
 }
 
-/* line 35, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color2 {
-  border-bottom: 17vh solid #50CFC9;
+@media all and (orientation: portrait) {
+  /* line 24, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block div.triangle {
+    border-bottom-width: 17vw;
+    border-left: 17vw solid transparent;
+  }
 }
 
 /* line 38, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color3 {
-  border-bottom: 17vh solid #EA5455;
+#board .block .color1 {
+  border-bottom-color: #E6F99D;
 }
 
 /* line 41, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color4 {
-  border-bottom: 17vh solid #F5D97E;
+#board .block .color2 {
+  border-bottom-color: #50CFC9;
 }
 
 /* line 44, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color5 {
-  border-bottom: 17vh solid #DDDDDD;
+#board .block .color3 {
+  border-bottom-color: #EA5455;
 }
 
 /* line 47, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color6 {
-  border-bottom: 17vh solid #5A8DDC;
+#board .block .color4 {
+  border-bottom-color: #F5D97E;
 }
 
 /* line 50, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color7 {
-  border-bottom: 17vh solid #F5F5F5;
+#board .block .color5 {
+  border-bottom-color: #DDDDDD;
 }
 
 /* line 53, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color8 {
-  border-bottom: 17vh solid #B9E937;
+#board .block .color6 {
+  border-bottom-color: #5A8DDC;
 }
 
 /* line 56, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color9 {
-  border-bottom: 17vh solid #FC5185;
+#board .block .color7 {
+  border-bottom-color: #F5F5F5;
 }
 
 /* line 59, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color10 {
-  border-bottom: 17vh solid #7FDA89;
+#board .block .color8 {
+  border-bottom-color: #B9E937;
 }
 
 /* line 62, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color11 {
-  border-bottom: 17vh solid #47A0B4;
+#board .block .color9 {
+  border-bottom-color: #FC5185;
 }
 
 /* line 65, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color12 {
-  border-bottom: 17vh solid #FF5733;
+#board .block .color10 {
+  border-bottom-color: #7FDA89;
 }
 
 /* line 68, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color13 {
-  border-bottom: 17vh solid #FFD00C;
+#board .block .color11 {
+  border-bottom-color: #47A0B4;
 }
 
 /* line 71, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color14 {
-  border-bottom: 17vh solid #BBE9DB;
+#board .block .color12 {
+  border-bottom-color: #FF5733;
 }
 
 /* line 74, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color15 {
-  border-bottom: 17vh solid #F03861;
+#board .block .color13 {
+  border-bottom-color: #FFD00C;
 }
 
 /* line 77, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
-#board .block .color16 {
-  border-bottom: 17vh solid #AECCC6;
+#board .block .color14 {
+  border-bottom-color: #BBE9DB;
 }
 
-/* line 86, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+/* line 80, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color15 {
+  border-bottom-color: #F03861;
+}
+
+/* line 83, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+#board .block .color16 {
+  border-bottom-color: #AECCC6;
+}
+
+/* line 87, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block h1 {
-  font-size: 3vh;
-  width: 16vh;
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
   width: 50%;
   position: absolute;
-  margin: 1.5vh;
+  margin: 10%;
   top: 0;
   left: 0;
 }
 
-/* line 98, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+@media all and (orientation: landscape) {
+  /* line 87, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block h1 {
+    font-size: 2em;
+  }
+}
+
+@media all and (orientation: portrait) {
+  /* line 87, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block h1 {
+    font-size: 1.3em;
+  }
+}
+
+/* line 104, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block p {
   margin: 0;
   padding: 0;
-  width: 35%;
   padding-left: 50%;
   position: absolute;
   margin: 1vh;
   bottom: 0;
   right: 0;
+}
+
+@media all and (orientation: landscape) {
+  /* line 104, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block p {
+    font-size: 1.1em;
+    width: 35%;
+  }
+}
+
+@media all and (orientation: portrait) {
+  /* line 104, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
+  #board .block p {
+    font-size: 0.7em;
+    width: 45%;
+  }
 }
 
 /* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_footer.scss */
