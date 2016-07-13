@@ -77,6 +77,21 @@
   width: 100%;
 }
 
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_game.scss */
+#portfolio {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 300px auto 0;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 11, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_game.scss */
+.hidden {
+  display: none;
+}
+
 /* line 1, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board {
   height: 85vh;
@@ -585,6 +600,16 @@ footer p {
   50% {
     transform: scale(0.7, 1.5);
   }
+}
+
+/* line 7, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_all.scss */
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* line 4, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/style.scss */

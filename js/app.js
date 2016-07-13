@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	var blocks = document.querySelectorAll('.block'),
 		again = document.querySelector('#again'),
+		portfolio = document.querySelector('#portfolio'),
 		myContent = [
 			'<div class="triangle color1"><h1 class="spin">Open Sans Pro</h1><p>is my favourite font</p></div>',
 			'<div class="triangle color2"><h1 class="gelatine">&#60;canvas&#62; magic</h1><p>is what I&nbsp;want to be great at</p></div>',
@@ -153,7 +154,10 @@ document.addEventListener("DOMContentLoaded", function(){
 				active = 1;
 			}
 			if (points === 16) {
-				console.log('PORTFOLIO');
+				portfolio.classList.remove('hidden');
+				portfolio.querySelector('button').addEventListener('click', function() {
+					location.reload();
+				});
 			}
 		});
 	}
@@ -173,9 +177,9 @@ document.addEventListener("DOMContentLoaded", function(){
 		for (var i = 0; i < activeBlocks.length; i++) {
 			activeBlocks[i].classList.remove('active');
 			activeBlocks[i].classList.add('gone');
-			active = 0;
-			points ++;
+			active = 0;	
 		}
+		points ++;
 	}
 
 });
