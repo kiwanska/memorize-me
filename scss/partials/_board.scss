@@ -4,9 +4,9 @@
 	position: relative;
 	top: -2vh;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	align-content: flex-start;
+	align-content: center;
 	overflow: hidden;
 
 	.gone {
@@ -33,6 +33,14 @@
 			@media all and (orientation: portrait) {
 				border-bottom-width: 17vw; 
 				border-left: 17vw solid transparent;
+			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait) {
+				border-bottom-width: 12.5vw; 
+				border-left: 12.5vw solid transparent;
+			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape) {
+				border-bottom-width: 12.5vh; 
+				border-left:12.5vh solid transparent;
 			}
 		}
 		.color1 {
@@ -91,6 +99,12 @@
 			@media all and (orientation: portrait) {
 				font-size: 1.3em;
 			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape) {
+				font-size: 1.3em;
+			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait) {
+				font-size: 1.1em;
+			}
 			width: 100%;
 			height: auto;
 			margin:0;
@@ -107,6 +121,14 @@
 				width: 35%;
 			}
 			@media all and (orientation: portrait) {
+				font-size: 0.7em;
+				width: 45%;
+			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) {
+				font-size: 0.9em;
+				width: 45%;
+			}
+			@media all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait) {
 				font-size: 0.7em;
 				width: 45%;
 			}
