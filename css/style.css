@@ -112,11 +112,13 @@
 .block:hover {
   
   box-shadow: 0 0 15px 2px silver;
+  transition: all 0.2s linear 0s;
   
 }
 .block:active {
   
   box-shadow: 0 0 15px 3px grey;
+  transition: all 0.1s linear 0s;
   
 }
 
