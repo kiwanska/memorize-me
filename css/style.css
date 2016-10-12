@@ -109,6 +109,16 @@
 #board .gone {
   opacity: 0;
 }
+.block:hover {
+  
+  box-shadow: 0 0 15px 2px silver;
+  
+}
+.block:active {
+  
+  box-shadow: 0 0 15px 3px grey;
+  
+}
 
 /* line 16, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block {
