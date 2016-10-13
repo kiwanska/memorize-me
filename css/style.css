@@ -109,6 +109,23 @@
 #board .gone {
   opacity: 0;
 }
+.block:hover {
+  
+  
+  transition: all 0.2s linear 0s;
+  -ms-transform: rotate(3deg); 
+  -webkit-transform: rotate(3deg); 
+  transform: rotate(3deg);
+  
+}
+.block:active {
+  
+  transition: all 0.2s linear 0s;
+  -ms-transform: rotate(-3deg); 
+  -webkit-transform: rotate(-3deg); 
+  transform: rotate(-3deg);
+  
+}
 
 /* line 16, /Users/sobylmine/Wszystko/CODEWORK/3. memo/scss/partials/_board.scss */
 #board .block {
