@@ -111,14 +111,19 @@
 }
 .block:hover {
   
-  box-shadow: 0 0 15px 2px silver;
+  
   transition: all 0.2s linear 0s;
+  -ms-transform: rotate(3deg); 
+  -webkit-transform: rotate(3deg); 
+  transform: rotate(3deg);
   
 }
 .block:active {
   
-  box-shadow: 0 0 15px 3px grey;
-  transition: all 0.1s linear 0s;
+  transition: all 0.2s linear 0s;
+  -ms-transform: rotate(-3deg); 
+  -webkit-transform: rotate(-3deg); 
+  transform: rotate(-3deg);
   
 }
 
